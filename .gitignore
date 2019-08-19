@@ -1,0 +1,4 @@
+
+\.next/cache/next-babel-loader/
+.next\*
+node_modules\*

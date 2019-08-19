@@ -1,0 +1,27 @@
+{
+  "name": "nextserver_commerce",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next",
+    "build": "next build",
+    "start": "next start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/appcoreopc/nextserver_commerce.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/appcoreopc/nextserver_commerce/issues"
+  },
+  "homepage": "https://github.com/appcoreopc/nextserver_commerce#readme",
+  "dependencies": {
+    "next": "^9.0.3",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  }
+}
