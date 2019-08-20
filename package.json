@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "analyze": "cross-env BUNDLE_ANALYZE=both next build",
+    "analyze:server": "cross-env BUNDLE_ANALYZE=server next build",
+    "analyze:browser": "cross-env BUNDLE_ANALYZE=browser next build"
   },
   "repository": {
     "type": "git",
@@ -23,7 +26,11 @@
     "@zeit/next-typescript": "^1.1.1",
     "next": "^9.0.3",
     "react": "^16.9.0",
-    "react-dom": "^16.9.0"
+    "react-dom": "^16.9.0",
+    "@zeit/next-bundle-analyzer": "^0.1.2",
+    "cross-env": "^5.2.0",
+    "express": "^4.16.4",
+    "firebase": "^5.8.6"
   },
   "devDependencies": {
     "@types/node": "^12.7.2",
