@@ -3,7 +3,6 @@ export const MainPageStyle = {
     padding : 20
 }
 
-
 export const MainPageStyle2 = { 
     margin : 20, 
     padding : 20
