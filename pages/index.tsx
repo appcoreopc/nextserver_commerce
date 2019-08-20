@@ -2,6 +2,9 @@ import Link from 'next/link'
 import MainPageStyle from '../styles/style'
 import Main from '../components/Layout/Main'
 
+import ScriptContent from '../components/StaticAssets/ScriptContent'
+
+
 
 const Home = () => (
   
@@ -11,22 +14,13 @@ const Home = () => (
 
   <script async src="https://cdn.ampproject.org/v0.js"></script>
   <title>Hello, AMPs</title>
-    
+
+  <ScriptContent></ScriptContent>    
+
   <Link href="http://www.google.com"> Hello</Link>
-
-  <link rel="stylesheet" type="text/css" href="/static/theme.css"/>
-  <link rel="stylesheet" type="text/css"  href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"/>
-
-
-  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
-  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" ></script>
-    
-  <Main>
-  
+ 
+  <Main>  
   <h1 >Hello world! here we come   </h1>
-
-
   </Main>
   
       <div className='alert alert-primary' role='alert'>
