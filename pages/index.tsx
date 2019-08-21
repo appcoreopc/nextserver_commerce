@@ -3,6 +3,7 @@ import MainPageStyle from '../styles/style'
 import Main from '../components/Layout/Main'
 
 import ScriptContent from '../components/StaticAssets/ScriptContent'
+import SubContent from '../components/Layout/SubContent'
 
 
 
@@ -26,7 +27,8 @@ const Home = () => (
       <div className='alert alert-primary' role='alert'>
       A simple primary alert—check it out!
       </div>      
-  
+
+      <SubContent/>  
   </div>
   
   );
