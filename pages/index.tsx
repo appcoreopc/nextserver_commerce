@@ -1,10 +1,10 @@
-import Link from 'next/link'
+
 import MainPageStyle from '../styles/style'
 import Main from '../components/Layout/Main'
 
 import ScriptContent from '../components/StaticAssets/ScriptContent'
 import SubContent from '../components/Layout/SubContent'
-
+import ItemComponent from '../components/ItemComponent/ItemComponent'
 
 
 const Home = () => (
@@ -18,7 +18,8 @@ const Home = () => (
 
   <ScriptContent></ScriptContent>    
 
-  <Link href="http://www.google.com"> Hello</Link>
+  <ItemComponent />
+
  
   <Main>  
   <h1 >Hello world! here we come   </h1>
