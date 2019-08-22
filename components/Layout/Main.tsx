@@ -1,9 +1,7 @@
 const Main = (props: any) => (
         
-    <div> 
-        
+    <div>         
       {props.children}
-
     </div>
     );
     
