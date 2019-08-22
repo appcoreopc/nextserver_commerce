@@ -12,9 +12,7 @@ const Home = () => (
   <div style={MainPageStyle}>
 
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
-
-  <script async src="https://cdn.ampproject.org/v0.js"></script>
-  <title>Hello, AMPs</title>
+ 
 
   <ScriptContent></ScriptContent>    
 
