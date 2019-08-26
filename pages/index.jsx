@@ -4,7 +4,6 @@ import Main from '../components/Layout/Main'
 
 import ScriptContent from '../components/StaticAssets/ScriptContent'
 import SubContent from '../components/Layout/SubContent'
-import ItemComponent from '../components/ItemComponent/ItemComponent'
 
 
 import TopNav from '../components/TopNavigation/TopNav'
@@ -16,7 +15,7 @@ const Home = () => (
   
   <ScriptContent></ScriptContent>    
   
-  <ItemComponent />
+
 
 
   <TopNav/>
