@@ -1,4 +1,5 @@
 const withBundleAnalyzer = require("@zeit/next-bundle-analyzer");
+const withCSS = require('@zeit/next-css')
 
 module.exports = withBundleAnalyzer({
   analyzeServer: ["server", "both"].includes(process.env.BUNDLE_ANALYZE),
@@ -14,3 +15,7 @@ module.exports = withBundleAnalyzer({
     }
   }
 });
+
+module.exports = withCSS({
+  cssModules: true
+})
