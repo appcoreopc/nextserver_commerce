@@ -18,23 +18,24 @@ const Home = () => (
   
   
   <div className="container">  
-  <div row>       
-  <Main>  
-  <h1 >Hello world! here we come   </h1>
-  </Main>
   
-  <div className='alert alert-primary' role='alert'>
-  A simple primary alert—check it out!
-  </div>   
-  </div> 
+    <div className="row">             
+      
+      <div className="col-12 col-sm-6 col-md-4"> 
+      Column 1
+      </div>
+      
+
+      <div className="col-12 col-sm-6 col-md-4"> 
+      Column 2
+      </div>    
+   
+   </div>
   
-  <div className="row">
-  <SubContent/>  
-  </div>
-  
-  </div>
   
   </div>  
+
+  </div>
   );
   
   export default Home;
