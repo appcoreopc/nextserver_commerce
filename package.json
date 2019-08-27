@@ -38,6 +38,7 @@
     "@types/react": "^16.9.2",
     "isomorphic-unfetch": "^3.0.0",
     "mysql-serverless": "^1.1.7",
+    "next-workbox-webpack-plugin": "^2.1.1",
     "typescript": "^3.5.3"
   }
 }

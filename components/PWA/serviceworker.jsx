@@ -1,6 +1,7 @@
 import React, { PureComponent } from 'react';
 
-class OfflineSupport extends PureComponent {
+class ProgressiveWebComponent extends PureComponent {
+
   componentDidMount() {
     if ('serviceWorker' in navigator) {
       navigator.serviceWorker
@@ -10,11 +11,9 @@ class OfflineSupport extends PureComponent {
     }
   }
 
-  
-
   render() {
     return null;
   }
 }
 
-export default OfflineSupport;
+export default ProgressiveWebComponent;
