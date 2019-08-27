@@ -14,3 +14,18 @@
 body { 
      background:  #f4f4fb;
 }
+
+
+.itemComponent ul { 
+    padding : 4em 4em 4em 4em
+    
+} 
+
+.footerItem { 
+    padding: 0.5em;
+}
+
+.itemComponent ul li { 
+    list-style-type: none;    
+} 
+

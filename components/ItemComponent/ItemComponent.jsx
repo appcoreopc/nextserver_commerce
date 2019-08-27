@@ -2,7 +2,7 @@
 import SearchComponent from "../SearchBar/SearchComponent"
 
 const ItemComponent =  (props) => (
-    <div> 
+    <div className="itemComponent"> 
     <ul>
     <li>{props.title}</li>
     <li><img src={props.src} width='200px'></img></li>                 
