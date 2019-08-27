@@ -6,13 +6,16 @@ import SubContent from '../components/Layout/SubContent'
 import ItemComponent from '../components/ItemComponent/ItemComponent'
 import TopNav from '../components/TopNavigation/TopNav'
 import BottomNav from '../components/BottomNavigation/BottomNav'
-
+import OfflineSupport from '../components/PWA/serviceworker'
 
 const Home = () => (
   
   <div>
   
   <ScriptContent/>    
+  
+  
+  <OfflineSupport/>
   
   <TopNav/>
     
