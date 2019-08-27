@@ -1,22 +1,13 @@
 
 import SearchComponent from "../SearchBar/SearchComponent"
 
-export default class ItemComponent extends React.Component {
-    render() {
-      return (
+const ItemComponent =  (props) => (
+    <div> 
+    <ul>
+    <li>{props.title}</li>
+    <li><img src={props.src} width='200px'></img></li>                 
+    </ul>
+    </div>        
+    );
     
-          <div>
-              <ul>
-                  <li>Mens</li>
-                  <li>Women</li>
-                  <li>Kids</li>                
-                  <li>New Arrrvals</li>
-                  <li>Sale</li>
-                  <li><SearchComponent /></li>
-
-              </ul>
-          </div>        
-      );
-    }
-  };
-
+    export default ItemComponent;

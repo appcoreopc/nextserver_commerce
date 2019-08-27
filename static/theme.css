@@ -1,3 +1,5 @@
+
+
 @media (min-width: 576px) {  }
 
 
@@ -8,3 +10,7 @@
 
 
 @media (min-width: 1200px) {  }
+
+body { 
+     background:  #f4f4fb;
+}
