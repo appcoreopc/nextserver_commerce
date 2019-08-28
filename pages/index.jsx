@@ -7,6 +7,7 @@ import ItemComponent from '../components/ItemComponent/ItemComponent'
 import TopNav from '../components/TopNavigation/TopNav'
 import BottomNav from '../components/BottomNavigation/BottomNav'
 import ProgressiveWebComponent from '../components/PWA/serviceworker'
+import Link from 'next/link'
 
 const Home = () => (
   
@@ -30,7 +31,8 @@ const Home = () => (
 
       <div className="col-12 col-sm-6 col-md-4"> 
 
-      <ItemComponent title="Nike Alien" src="../static/images/2.jpg"></ItemComponent>
+      <ItemComponent title="Nike Aliimport Link from 'next/link'
+en" src="../static/images/2.jpg"></ItemComponent>
       </div>    
       
       <div className="col-12 col-sm-6 col-md-4"> 
