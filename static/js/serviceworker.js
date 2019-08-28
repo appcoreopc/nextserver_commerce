@@ -3,7 +3,7 @@ importScripts('https://storage.googleapis.com/workbox-cdn/releases/4.3.1/workbox
 
 if (workbox) {
 
-  console.log(`Yay! Workbox is loaded 🎉`);
+  console.log(`Loadok`);
 
   workbox.routing.registerRoute(
     // Cache CSS files.

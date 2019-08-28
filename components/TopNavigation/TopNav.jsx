@@ -9,7 +9,7 @@ const TopNav = () => (
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
             <a className="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a className="nav-item nav-link" href="#">Men</a>
+            <a className="nav-item nav-link" href="/contactus">Men</a>
             <a className="nav-item nav-link" href="#">Women</a>
             <a className="nav-item nav-link disabled" href="#" tabIndex="-1">Children</a>
           </div>
