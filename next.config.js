@@ -24,7 +24,7 @@ module.exports = withCSS({
 
 module.exports = {
   webpack: (config, {isServer, dev, buildId, config: {distDir}}) => {
-    if (!isServer && !dev) {
+   // if (!isServer && !dev) {
       config.plugins.push(
         new NextWorkboxWebpackPlugin({
           importWorkboxFrom: 'cdn',
@@ -34,7 +34,7 @@ module.exports = {
           swURLRoot: '/static/js'
         })
       );
-    }
+  //  }
 
     return config
   },
