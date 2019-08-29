@@ -7,7 +7,7 @@ const handleClick = (e) =>  {
 const AddToCart = () => (
 
     <div>
-        <button onClick={handleClick}>Add</button>
+        <button type="button" class="btn btn-primary" onClick={handleClick}>Buy me</button>
     </div>
 
 )

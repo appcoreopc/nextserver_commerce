@@ -33,11 +33,13 @@ const Home = () => (
       <div className="col-12 col-sm-6 col-md-4"> 
 
       <ItemComponent title="Nike Air" src="../static/images/2.jpg"></ItemComponent>
+      <AddToCart />
       </div>    
       
       <div className="col-12 col-sm-6 col-md-4"> 
 
       <ItemComponent title="Nike White" src="../static/images/3.jpg"></ItemComponent>
+      <AddToCart />
       </div>    
    
    </div>  
