@@ -8,7 +8,7 @@ const TopNav = () => (
         </button>
         <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div className="navbar-nav">
-          <Link href="/about">
+          <Link href="/">
              <a className="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
          </Link>
 

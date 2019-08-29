@@ -31,8 +31,7 @@ const Home = () => (
 
       <div className="col-12 col-sm-6 col-md-4"> 
 
-      <ItemComponent title="Nike Aliimport Link from 'next/link'
-en" src="../static/images/2.jpg"></ItemComponent>
+      <ItemComponent title="Nike Air" src="../static/images/2.jpg"></ItemComponent>
       </div>    
       
       <div className="col-12 col-sm-6 col-md-4"> 
