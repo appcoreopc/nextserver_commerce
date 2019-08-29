@@ -7,7 +7,8 @@ import ItemComponent from '../components/ItemComponent/ItemComponent'
 import TopNav from '../components/TopNavigation/TopNav'
 import BottomNav from '../components/BottomNavigation/BottomNav'
 import ProgressiveWebComponent from '../components/PWA/serviceworker'
-import Link from 'next/link'
+import AddToCart from '../components/Cart/AddCart'
+
 
 const Home = () => (
   
@@ -26,7 +27,7 @@ const Home = () => (
       <div className="col-12 col-sm-6 col-md-4"> 
 
        <ItemComponent title="Nike X" src="../static/images/1.jpg"></ItemComponent>
-     
+       <AddToCart />
       </div>      
 
       <div className="col-12 col-sm-6 col-md-4"> 

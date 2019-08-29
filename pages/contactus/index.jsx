@@ -1,4 +1,3 @@
-
 import Header from '../../components/Header/Header'
 import ItemComponent from '../../components/ItemComponent/ItemComponent'
 import Footer from '../../components/Footer/Footer'
@@ -12,7 +11,6 @@ const ContactUs = () => (
   <ScriptContent/>    
   
   <TopNav/>
-
 
       <div>Contact Us  </div>
 
