@@ -1,7 +1,13 @@
 
 const handleClick = (e) =>  {
-    console.log('Free pizza!');
-    console.log(e);
+   
+    fetch('http://www.google.com')
+    .then(function(response) {
+        return response.json();
+    })
+    .then(function(myJson) {
+        console.log(JSON.stringify(myJson));
+    });
 }
 
 const AddToCart = () => (
