@@ -9,7 +9,6 @@ import BottomNav from '../components/BottomNavigation/BottomNav'
 import ProgressiveWebComponent from '../components/PWA/serviceworker'
 import AddToCart from '../components/Cart/AddCart'
 
-
 const Home = () => (
   
   <div>
@@ -40,15 +39,11 @@ const Home = () => (
 
       <ItemComponent title="Nike White" src="../static/images/3.jpg"></ItemComponent>
       <AddToCart />
-      </div>    
-   
-   </div>  
-  
+      </div>       
+   </div>    
   </div>  
 
-
-   <BottomNav ></BottomNav>
-  
+   <BottomNav ></BottomNav>  
 
   </div>
   );
