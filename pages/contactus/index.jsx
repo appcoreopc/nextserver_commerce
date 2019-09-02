@@ -3,6 +3,7 @@ import ItemComponent from '../../components/ItemComponent/ItemComponent'
 import Footer from '../../components/Footer/Footer'
 import TopNav from '../../components/TopNavigation/TopNav'
 import ScriptContent from '../../components/StaticAssets/ScriptContent'
+import BottomNav from '../../components/BottomNavigation/BottomNav'
 
 const ContactUs = () => (
 
@@ -12,11 +13,12 @@ const ContactUs = () => (
   
   <TopNav/>
 
-      <div>Contact Us  </div>
+      <div> Contact Us  </div>
 
       <ItemComponent title="Nike X" src="../static/images/1.jpg"></ItemComponent>
      
-    <Footer />
+    <BottomNav />
+
   </div>
 );
 
