@@ -5,7 +5,6 @@ import Link from 'next/link'
 
 const ItemComponent =  (props) => (
 
-
     <Link href={props.sku}>
     <div className="itemComponent"> 
         <ul>

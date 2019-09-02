@@ -21,7 +21,7 @@ const Home = () => (
       
       <div className="col-12 col-sm-6 col-md-6"> 
 
-       <ItemComponent title="Nike X" sku="/product/123" src="../static/images/1.jpg"></ItemComponent>
+       <ItemComponent title="Nike X" sku="/product" src="../static/images/1.jpg"></ItemComponent>
       </div>      
 
       <div className="col-12 col-sm-6 col-md-6"> 

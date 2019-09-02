@@ -1,23 +1,22 @@
 
-import ScriptContent from '../components/StaticAssets/ScriptContent'
-import ItemComponent from '../components/ItemComponent/ItemComponent'
-import TopNav from '../components/TopNavigation/TopNav'
-import BottomNav from '../components/BottomNavigation/BottomNav'
-import ProgressiveWebComponent from '../components/PWA/serviceworker'
+import TopNav from '../../components/TopNavigation/TopNav'
+import BottomNav from '../../components/BottomNavigation/BottomNav'
+import ScriptContent from '../../components/StaticAssets/ScriptContent'
 
-const Home = () => (
+const ProductInfo = (props) => (
   
   <div>
   
   <ScriptContent/>    
-  
-  <ProgressiveWebComponent/>
   
   <TopNav/>
     
   <div className="container">  
     <div className="row">             
      <div className="col-12 col-sm-6 col-md-6"> 
+
+        {props.description}
+        {props.name}
     </div>    
     </div>  
   </div>  
@@ -27,4 +26,18 @@ const Home = () => (
   </div>
   );
   
-  export default Home;
+
+  ProductInfo.getInitialProps = async function(context) {
+
+    //const { id } = context.query;
+    //const res = await fetch(`https://api.tvmaze.com/shows/${id}`);
+    //const show = await res.json();  
+    //console.log(`Fetched show: ${show.name}`);
+  
+    return { 'name' : 'NikeX', 
+             'description' : 'The latest desgin from' };
+  };
+  
+
+
+  export default ProductInfo;
