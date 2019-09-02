@@ -16,25 +16,10 @@ const Home = () => (
   <TopNav/>
     
   <div className="container">  
-  
     <div className="row">             
-      
-      <div className="col-12 col-sm-6 col-md-6"> 
-
-       <ItemComponent title="Nike X" sku="/product/123" src="../static/images/1.jpg"></ItemComponent>
-      </div>      
-
-      <div className="col-12 col-sm-6 col-md-6"> 
-
-      <ItemComponent title="Nike Air" sku="123" src="../static/images/2.jpg"></ItemComponent>
-      
-      </div>    
-      
-      <div className="col-12 col-sm-6 col-md-6"> 
-
-      <ItemComponent title="Nike White" sku="123" src="../static/images/3.jpg"></ItemComponent>
-      </div>       
-   </div>    
+     <div className="col-12 col-sm-6 col-md-6"> 
+    </div>    
+    </div>  
   </div>  
 
    <BottomNav ></BottomNav>  
