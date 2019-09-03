@@ -12,11 +12,15 @@ const TopNav = () => (
              <a className="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
          </Link>
 
-         <Link href="/contactus">
+         <Link href="/product?category=Men" as="/men" prefetch={true}>
            <a className="nav-item nav-link">Men</a>
           </Link>
-            <a className="nav-item nav-link" href="#">Women</a>
-            <a className="nav-item nav-link disabled" href="#" tabIndex="-1">Children</a>
+          <Link href="/product?query=Women" as="/women" prefetch={true}>
+            <a className="nav-item nav-link">Women</a>
+          </Link>
+          <Link href="/product?query=Children" as="/children" prefetch={true}>
+            <a className="nav-item nav-link" tabIndex="-1">Children</a>
+          </Link>
           </div>
         </div>
       </nav>
