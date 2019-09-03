@@ -15,10 +15,10 @@ const TopNav = () => (
          <Link href="/product?category=Men" as="/men" prefetch={true}>
            <a className="nav-item nav-link">Men</a>
           </Link>
-          <Link href="/product?query=Women" as="/women" prefetch={true}>
+          <Link href="/product?category=Women" as="/women" prefetch={true}>
             <a className="nav-item nav-link">Women</a>
           </Link>
-          <Link href="/product?query=Children" as="/children" prefetch={true}>
+          <Link href="/product?category=Children" as="/children" prefetch={true}>
             <a className="nav-item nav-link" tabIndex="-1">Children</a>
           </Link>
           </div>

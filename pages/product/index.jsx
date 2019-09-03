@@ -8,6 +8,7 @@ export function ProductInfo(props) {
     
     const router = useRouter();
     const {category} = router.query;
+
     return (
         <div>
         <ScriptContent/>    
@@ -17,7 +18,6 @@ export function ProductInfo(props) {
         <div className="container">  
         <div className="row">             
         <div className="col-12 col-sm-6 col-md-6"> 
-            {router.pathname}
             {props.description}
             {props.name}
         </div>    
