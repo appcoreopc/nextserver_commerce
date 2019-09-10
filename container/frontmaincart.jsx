@@ -1,7 +1,7 @@
 
 import { ItemComponent } from '../components/ItemComponent/ItemComponent'
 import { connect } from 'react-redux'
-
+import AddToCart from '../components/Cart/AddCart'
 import { addCartItem, removeCartItem } from '../actions/cartItemActions';
 
 
@@ -22,7 +22,8 @@ export const FrontMainCart = ({a}) => (
         
         <div className="col-12 col-sm-6 col-md-6"> 
             <ItemComponent onClic={ 
-                () => {
+                
+            () => {
             
             console.log(a);
             console.log('data');
@@ -43,9 +44,7 @@ export const FrontMainCart = ({a}) => (
 )
     
  
-export default connect(  // mapStateToProps,
-    null,
-    mapDispatchToProps)(ItemComponent)
-
+//export default connect(mapStateToProps,mapDispatchToProps)(ItemComponent)
+//export default connect(mapStateToProps,mapDispatchToProps)(AddToCart)
 //export FrontMainCart
 

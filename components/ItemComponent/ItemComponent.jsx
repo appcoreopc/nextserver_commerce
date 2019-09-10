@@ -30,5 +30,5 @@ export const ItemComponent =  (props) => (
    // mapStateToProps,
    null,
     mapDispatchToProps
-  )(ItemComponent);
+  )(AddToCart);
   

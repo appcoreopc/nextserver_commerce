@@ -7,31 +7,26 @@ import ProgressiveWebComponent from '../components/PWA/serviceworker'
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import { FrontMainCart } from '../container/frontmaincart'
-
 import cartReducer from '../reducers/cartReducer'
 
-const store = createStore(cartReducer)
+const reduxstore = createStore(cartReducer)
 
 const Home = () => (
   
-  <Provider store={store}>
- 
-  <div>
+  <Provider store={reduxstore}>
+   
+    <ScriptContent/>    
+    
+    <ProgressiveWebComponent/>
+    
+    <TopNav/>
   
-  <ScriptContent/>    
-  
-  <ProgressiveWebComponent/>
-  
-  <TopNav/>
- 
-    <FrontMainCart>
-    </FrontMainCart>
-  
-  <BottomNav ></BottomNav>  
-  
-  </div>
+      <FrontMainCart/>
+        
+    <BottomNav ></BottomNav>  
+        
   
   </Provider>
   );
   
-  export default Home;
+  export default Home 
