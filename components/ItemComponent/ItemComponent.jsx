@@ -1,16 +1,6 @@
 
 import AddToCart from '../../components/Cart/AddCart'
-import { connect } from 'react-redux'
-import { addCartItem, removeCartItem } from '../../actions/cartItemActions';
 
-const mapStateToProps = state => ({
-   // items : getVisibleTodos(state.todos, state.visibilityFilter)
-})
-  
-const mapDispatchToProps = dispatch => ({
-    addCartItem: id => { console.log('addcatitem');  dispatch(addCartItem(id))},
-    removeCartItem : id => dispatch(removeCartItem(id))
-})
 
 export const ItemComponent =  (props) => (
     
@@ -24,11 +14,4 @@ export const ItemComponent =  (props) => (
     </ul>
     </div>
     //    </Link>         
-    );
-    
- export default connect(
-   // mapStateToProps,
-   null,
-    mapDispatchToProps
-  )(AddToCart);
-  
+ );

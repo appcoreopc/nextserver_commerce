@@ -1,6 +1,7 @@
 const cartActions = (state = [], action) => {
     switch (action.type) {
-      case 'CART_ADD':
+      case 'ADD_CART':
+        console.log('item received', state)
         return [
           ...state,
           {
