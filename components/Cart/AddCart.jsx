@@ -3,8 +3,8 @@ import { connect } from 'react-redux'
 import { addCartItem, removeCartItem } from '../../actions/cartItemActions';
 
 const mapStateToProps = state => ({
-    // items : getVisibleTodos(state.todos, state.visibilityFilter)
- })
+
+})
    
  const mapDispatchToProps = dispatch => ({
      addCartItem: id => { dispatch(addCartItem(id))},
