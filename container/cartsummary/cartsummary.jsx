@@ -1,21 +1,20 @@
 import { connect } from 'react-redux'
-//import { addCartItem, removeCartItem } from '../../actions/cartItemActions';
+import {  clearCartItem , removeCartItem } from '../../actions/cartItemActions';
 
 const mapStateToProps = state => ({
  items : state
  })
    
-   
- const mapDispatchToProps = dispatch => ({
-     //addCartItem: id => { dispatch(addCartItem(id))},
-     //removeCartItem : id => dispatch(removeCartItem(id))
+ const mapDispatchToProps = dispatch => ({     
+     clearCart: () => { dispatch(clearCartItem())}    
  })
 
-const CartSummary = ({items}) => {
-    console.log('cart', items);
+const CartSummary = ({items, clearCart}) => {
+
     return (
             <div>
-                <div> Item {items ? items.length : "no item"} </div>
+                <div> Item { (items && items.length > 0) ? items.length : "no item"} </div>
+                <div><button onClick={() => clearCart()}>clear</button> </div>
             </div>
     )
 }

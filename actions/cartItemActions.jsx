@@ -10,6 +10,9 @@ export const removeCartItem = text => ({
     type: 'REMOVE_CART',
     id: cartelement++,
     text
-  })
+})
   
-  
+export const clearCartItem = () => ({
+  type: 'CLEAR_CART',
+  id: -1
+})

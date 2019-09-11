@@ -16,6 +16,9 @@ const cartActions = (state = [], action) => {
             ? {...todo, completed: !todo.completed}
             : todo
         )
+      case 'CLEAR_CART':
+            return [              
+            ]
       default:
         return state
     }
