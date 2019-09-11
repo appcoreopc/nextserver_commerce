@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import React, { useEffect } from "react";
+import CartSummary from '../../container/cartsummary/cartsummary';
 
 const TopNav = () => {     
     
@@ -30,6 +31,11 @@ const TopNav = () => {
           </Link>
           </div>
         </div>
+
+        <div>
+          <CartSummary/>
+        </div>
+
       </nav>
    )
 }

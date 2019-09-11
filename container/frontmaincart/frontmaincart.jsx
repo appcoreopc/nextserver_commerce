@@ -1,8 +1,8 @@
 
-import { ItemComponent } from '../components/ItemComponent/ItemComponent'
+import { ItemComponent } from '../../components/ItemComponent/ItemComponent'
 import { connect } from 'react-redux'
-import AddToCart from '../components/Cart/AddCart'
-import { addCartItem, removeCartItem } from '../actions/cartItemActions';
+import AddToCart from '../../components/Cart/AddCart'
+import { addCartItem, removeCartItem } from '../../actions/cartItemActions';
 
 export const FrontMainCart = () => (
   
@@ -23,8 +23,7 @@ export const FrontMainCart = () => (
      </div>    
   </div>  
 )
-    
- 
+     
 //export default connect(mapStateToProps,mapDispatchToProps)(ItemComponent)
 //export default connect(mapStateToProps,mapDispatchToProps)(AddToCart)
 //export FrontMainCart

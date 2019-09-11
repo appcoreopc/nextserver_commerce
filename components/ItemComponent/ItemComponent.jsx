@@ -10,7 +10,7 @@ export const ItemComponent =  (props) => (
     <li>{props.title}</li>
     <li><img src={props.src} width='200px'></img></li> 
     <li>&nbsp;</li>
-    <li><AddToCart/></li>                
+    <li><AddToCart text={props.text}/></li>                
     </ul>
     </div>
     //    </Link>         

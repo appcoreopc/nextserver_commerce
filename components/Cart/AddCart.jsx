@@ -11,18 +11,13 @@ const mapStateToProps = state => ({
      removeCartItem : id => dispatch(removeCartItem(id))
  })
  
-const AddToCart = ({ addCartItem, removeCartItem }) => (
+const AddToCart = ({ addCartItem, removeCartItem, props }) => (
     <div>
         <button className="btn btn-primary" type="button" onClick={
-            () =>
-            {
-                addCartItem('1')
-                //addCartItem('1');
-            }        
+           () => {  addCartItem('text'); }        
         }      
         >Buy me</button>
     </div>
 )
 
 export default connect(mapStateToProps,mapDispatchToProps)(AddToCart)
-//export default AddToCart;
