@@ -7,9 +7,12 @@ import ProgressiveWebComponent from '../components/PWA/serviceworker'
 import { Provider } from 'react-redux'
 import { createStore } from 'redux'
 import { FrontMainCart } from '../container/frontmaincart/frontmaincart'
-import cartReducer from '../reducers/cartReducer'
+import appreducers from '../reducers'
 
-const reduxstore = createStore(cartReducer)
+//import cartReducer from '../reducers/cartReducer'
+//const reduxstore = createStore(cartReducer)
+
+const reduxstore = createStore(appreducers)
 
 const Home = () => (
   
