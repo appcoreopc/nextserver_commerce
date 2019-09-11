@@ -1,5 +1,5 @@
 import { connect } from 'react-redux'
-import {  clearCartItem , removeCartItem } from '../../actions/cartItemActions';
+import {  clearCartItem } from '../../actions/cartItemActions';
 
 const mapStateToProps = state => ({
  items : state
