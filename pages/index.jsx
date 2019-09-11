@@ -9,9 +9,6 @@ import { createStore } from 'redux'
 import { FrontMainCart } from '../container/frontmaincart/frontmaincart'
 import appreducers from '../reducers'
 
-//import cartReducer from '../reducers/cartReducer'
-//const reduxstore = createStore(cartReducer)
-
 const reduxstore = createStore(appreducers)
 
 const Home = () => (
