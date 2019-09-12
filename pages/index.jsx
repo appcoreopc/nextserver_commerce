@@ -1,5 +1,3 @@
-
-
 import ScriptContent from '../components/StaticAssets/ScriptContent'
 import TopNav from '../components/TopNavigation/TopNav'
 import BottomNav from '../components/BottomNavigation/BottomNav'
@@ -23,7 +21,7 @@ const Home = () => (
   
       <FrontMainCart/>
         
-    <BottomNav ></BottomNav>  
+    <BottomNav/> 
         
   
   </Provider>
